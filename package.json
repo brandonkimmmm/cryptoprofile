@@ -36,7 +36,7 @@
     "not op_mini all"
   ],
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "server/server.js",
+  "main": "src/App.js",
   "devDependencies": {
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0"
