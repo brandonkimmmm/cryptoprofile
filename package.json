@@ -3,14 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "request": "^2.88.0",
+    "sequelize": "^4.41.2",
+    "sequelize-cli": "^5.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "export NODE_ENV=test && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +34,21 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server/server.js",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brandonkimmmm/cryptoprofile.git"
+  },
+  "author": "Brandon Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonkimmmm/cryptoprofile/issues"
+  },
+  "homepage": "https://github.com/brandonkimmmm/cryptoprofile#readme"
 }
